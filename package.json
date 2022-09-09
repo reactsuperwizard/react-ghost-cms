@@ -1,0 +1,57 @@
+{
+  "name": "haunted",
+  "version": "0.1.0",
+  "description": "A blog theme for Ghost as headless CMS",
+  "homepage": "https://github.com/coditva/Haunted",
+  "bugs": "https://github.com/coditva/Haunted/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coditva/Haunted.git"
+  },
+  "keywords": [
+    "ghost",
+    "ghost-theme",
+    "blog"
+  ],
+  "author": "Utkarsh Maheshwari <support@coditva.dev>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test-lint": "eslint .",
+    "test-unit": "jest -- --testPathPattern tests/unit",
+    "test": "npm run test-lint && npm run test-unit"
+  },
+  "dependencies": {
+    "domhandler": "4.2.0",
+    "html-react-parser": "1.2.6",
+    "moment": "2.29.1",
+    "next": "11.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "1.34.1",
+    "tailwindcss": "2.1.4",
+    "tailwindcss-classnames": "2.1.3"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.8",
+    "@types/jest": "^26.0.23",
+    "@types/react": "17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
+    "autoprefixer": "^10.2.6",
+    "enzyme": "^3.11.0",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-next": "^11.0.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^27.0.4",
+    "postcss": "^8.3.0",
+    "typescript": "^4.3.2"
+  }
+}
