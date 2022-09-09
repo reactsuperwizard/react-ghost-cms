@@ -117,6 +117,46 @@
       @apply dark:border-gray-700;
     }
 
+    .kg-bookmark-container {
+      @apply flex;
+      @apply justify-between;
+    }
+
+    a.kg-bookmark-container {
+      @apply text-current;
+      @apply hover:no-underline;
+    }
+
+    .kg-bookmark-content {
+      @apply flex-1;
+      @apply px-8;
+      @apply py-4;
+      @apply mr-4;
+    }
+
+    .kg-bookmark-title {
+      @apply text-xl;
+      @apply font-semibold;
+    }
+
+    .kg-bookmark-description {
+      @apply my-4;
+    }
+
+    .kg-bookmark-metadata {
+      @apply flex;
+      @apply items-center;
+    }
+
+    .kg-bookmark-icon {
+      @apply my-2;
+      @apply h-5;
+    }
+
+    .kg-bookmark-author {
+      @apply ml-2;
+    }
+
     .kg-bookmark-thumbnail {
       @apply relative;
       @apply w-1/3;
